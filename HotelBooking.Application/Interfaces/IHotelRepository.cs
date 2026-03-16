@@ -9,4 +9,6 @@ public interface IHotelRepository
     Task<List<Room>> GetRoomsByHotelIdAsync(Guid hotelId, CancellationToken cancellationToken = default);
     Task<Hotel?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default);
     Task<Hotel> AddAsync(Hotel hotel, CancellationToken cancellationToken = default);
+    Task<bool> UpdateAsync(Hotel hotel, CancellationToken cancellationToken = default);
+    Task<bool> DeleteAsync(Guid id, CancellationToken cancellationToken = default);
 }

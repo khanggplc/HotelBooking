@@ -1,8 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace HotelBooking.Application.DTOs
+namespace HotelBooking.Application.DTOs.Hotels
 {
-    public class CreateHotelDto
+    public class UpdateHotelDto
     {
         [Required]
         [MaxLength(200)]

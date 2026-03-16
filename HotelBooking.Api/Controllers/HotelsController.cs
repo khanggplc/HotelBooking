@@ -1,5 +1,4 @@
-﻿using HotelBooking.Application.DTOs;
-using HotelBooking.Application.DTOs.Hotels;
+﻿using HotelBooking.Application.DTOs.Hotels;
 using HotelBooking.Application.DTOs.Rooms;
 using HotelBooking.Application.Interfaces;
 using HotelBooking.Domain.Entities;
@@ -94,5 +93,41 @@ public class HotelsController : ControllerBase
         };
 
         return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+    }
+
+    [HttpPut("{id:guid}")]
+    public async Task<ActionResult<HotelDto>> Update(Guid id, [FromBody] UpdateHotelDto request, CancellationToken cancellationToken)
+    {
+        var hotel = new Hotel
+        {
+            Id = id,
+            Name = request.Name,
+            Address = request.Address,
+            City = request.City,
+            Description = request.Description ?? string.Empty
+        };
+
+        var updated = await _hotelRepository.UpdateAsync(hotel, cancellationToken);
+        if (!updated) return NotFound();
+
+        var result = new HotelDto
+        {
+            Id = hotel.Id,
+            Name = hotel.Name,
+            Address = hotel.Address,
+            City = hotel.City,
+            Description = hotel.Description
+        };
+
+        return Ok(result);
+    }
+
+    [HttpDelete("{id:guid}")]
+    public async Task<IActionResult> Delete(Guid id, CancellationToken cancellationToken)
+    {
+        var deleted = await _hotelRepository.DeleteAsync(id, cancellationToken);
+        if (!deleted) return NotFound();
+
+        return NoContent();
     }
 }
