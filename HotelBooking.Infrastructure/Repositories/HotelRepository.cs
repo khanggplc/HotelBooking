@@ -30,4 +30,18 @@ public class HotelRepository : IHotelRepository
             .OrderBy(r => r.RoomNumber)
             .ToListAsync(cancellationToken);
     }
+
+    public async Task<Hotel?> GetByIdAsync(Guid id, CancellationToken cancellationToken = default)
+    {
+        return await _context.Hotels
+            .AsNoTracking()
+            .FirstOrDefaultAsync(h => h.Id == id, cancellationToken);
+    }
+
+    public async Task<Hotel> AddAsync(Hotel hotel, CancellationToken cancellationToken = default)
+    {
+        await _context.Hotels.AddAsync(hotel, cancellationToken);
+        await _context.SaveChangesAsync(cancellationToken);
+        return hotel;
+    }
 }

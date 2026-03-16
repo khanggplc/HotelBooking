@@ -7,6 +7,30 @@
       "RelativeMoniker": "D:0:0:{479D11B4-7C45-83BF-EA6A-B691BE0E2E2C}|HotelBooking.Api\\HotelBooking.Api.csproj|solutionrelative:hotelbooking.api\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.application\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:hotelbooking.application\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|solutionrelative:hotelbooking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|solutionrelative:hotelbooking.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{479D11B4-7C45-83BF-EA6A-B691BE0E2E2C}|HotelBooking.Api\\HotelBooking.Api.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{479D11B4-7C45-83BF-EA6A-B691BE0E2E2C}|HotelBooking.Api\\HotelBooking.Api.csproj|solutionrelative:hotelbooking.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,28 +53,8 @@
       "RelativeMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:hotelbooking.application\\dtos\\hotels\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\repositories\\hotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.application\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:hotelbooking.application\\interfaces\\ihotelrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\dependencyinjection\\infrastructureserviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.application\\hotelbooking.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B04E7CF3-1ABA-E811-CB0B-FAC668EB9585}|HotelBooking.Application\\HotelBooking.Application.csproj|solutionrelative:hotelbooking.application\\hotelbooking.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D7FBCA9-A67E-2264-5BCB-9E1764AFB7AD}|HotelBooking.Infrastructure\\HotelBooking.Infrastructure.csproj|solutionrelative:hotelbooking.infrastructure\\persistence\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|solutionrelative:hotelbooking.domain\\entities\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,10 +63,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|solutionrelative:hotelbooking.domain\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|solutionrelative:hotelbooking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FD9107A4-EEB3-6B5C-B4C5-9F86BC64C297}|HotelBooking.Domain\\HotelBooking.Domain.csproj|c:\\users\\khang\\source\\repos\\hotelbooking\\hotelbooking.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -118,42 +118,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SQLQuery2.sql ",
-              "DocumentMoniker": "C:\\Users\\khang\\AppData\\Local\\Temp\\njtt1e3j..sql",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\njtt1e3j..sql",
-              "ToolTip": "SQLQuery2.sql *",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-16T09:24:21.636Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "dbo.Rooms [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HotelBookingDb/True/SqlTable/dbo.Rooms.sql",
-              "ToolTip": "dbo.Rooms [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2026-03-16T08:40:41.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoomDto.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
-              "RelativeToolTip": "HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T08:38:01.899Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -162,7 +128,7 @@
               "RelativeDocumentMoniker": "HotelBooking.Api\\Controllers\\HotelsController.cs",
               "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\Controllers\\HotelsController.cs",
               "RelativeToolTip": "HotelBooking.Api\\Controllers\\HotelsController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAwDMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAA/v////8PwEQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-16T07:46:25.728Z",
               "EditorCaption": ""
@@ -170,32 +136,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "HotelDto.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
-              "RelativeToolTip": "HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Room.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Room.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Room.cs",
+              "RelativeToolTip": "HotelBooking.Domain\\Entities\\Room.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvxAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T05:26:35.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\appsettings.json",
-              "RelativeDocumentMoniker": "HotelBooking.Api\\appsettings.json",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\appsettings.json",
-              "RelativeToolTip": "HotelBooking.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-14T15:29:36.849Z",
+              "WhenOpened": "2026-03-14T15:13:27.491Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "HotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
+              "RelativeToolTip": "HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
+              "ViewState": "AgIAABUAAAAA+/////8XwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T07:34:33.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
+              "RelativeToolTip": "HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T14:50:14.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InfrastructureServiceRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "RelativeToolTip": "HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T15:29:20.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHotelRepository.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
+              "RelativeToolTip": "HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:28:38.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "HotelBooking.Domain\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T15:13:40.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\Program.cs",
               "RelativeDocumentMoniker": "HotelBooking.Api\\Program.cs",
@@ -208,45 +226,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "HotelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
-              "RelativeToolTip": "HotelBooking.Infrastructure\\Repositories\\HotelRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAB0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T07:34:33.831Z",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "HotelBooking.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Api\\appsettings.json",
+              "RelativeToolTip": "HotelBooking.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-14T15:29:36.849Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IHotelRepository.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
-              "RelativeToolTip": "HotelBooking.Application\\Interfaces\\IHotelRepository.cs",
+              "DocumentIndex": 9,
+              "Title": "SQLQuery2.sql ",
+              "DocumentMoniker": "C:\\Users\\khang\\AppData\\Local\\Temp\\njtt1e3j..sql",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\njtt1e3j..sql",
+              "ToolTip": "SQLQuery2.sql *",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-16T09:24:21.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Rooms [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/HotelBookingDb/True/SqlTable/dbo.Rooms.sql",
+              "ToolTip": "dbo.Rooms [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-16T08:40:41.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RoomDto.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
+              "RelativeToolTip": "HotelBooking.Application\\DTOs\\Rooms\\RoomDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T05:28:38.918Z",
+              "WhenOpened": "2026-03-16T08:38:01.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "Room.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Room.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Room.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Room.cs",
-              "RelativeToolTip": "HotelBooking.Domain\\Entities\\Room.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Title": "HotelDto.cs",
+              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
+              "RelativeDocumentMoniker": "HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
+              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
+              "RelativeToolTip": "HotelBooking.Application\\DTOs\\Hotels\\HotelDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T15:13:27.491Z"
+              "WhenOpened": "2026-03-16T05:26:35.481Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Hotel.cs",
               "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Hotel.cs",
               "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Hotel.cs",
@@ -270,31 +310,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Booking.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Booking.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Booking.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Booking.cs",
-              "RelativeToolTip": "HotelBooking.Domain\\Entities\\Booking.cs",
-              "ViewState": "AgIAAAoAAACQmZmZmZkzwA4AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T15:13:40.422Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "InfrastructureServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "RelativeToolTip": "HotelBooking.Infrastructure\\DependencyInjection\\InfrastructureServiceRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-14T15:29:20.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
               "Title": "PaymentStatus.cs",
               "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Enums\\PaymentStatus.cs",
@@ -307,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "HotelBooking.Application.csproj",
               "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Application\\HotelBooking.Application.csproj",
               "RelativeDocumentMoniker": "HotelBooking.Application\\HotelBooking.Application.csproj",
@@ -332,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Domain\\Entities\\Payment.cs",
               "RelativeDocumentMoniker": "HotelBooking.Domain\\Entities\\Payment.cs",
@@ -341,18 +356,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-14T15:13:54.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "DbInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
-              "RelativeDocumentMoniker": "HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
-              "ToolTip": "C:\\Users\\khang\\source\\repos\\HotelBooking\\HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
-              "RelativeToolTip": "HotelBooking.Infrastructure\\Persistence\\DbInitializer.cs",
-              "ViewState": "AgIAACoAAAAA/////78kwDkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-15T14:50:14.404Z"
             },
             {
               "$type": "Document",

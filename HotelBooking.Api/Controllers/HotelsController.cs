@@ -1,6 +1,8 @@
-﻿using HotelBooking.Application.DTOs.Hotels;
+﻿using HotelBooking.Application.DTOs;
+using HotelBooking.Application.DTOs.Hotels;
 using HotelBooking.Application.DTOs.Rooms;
 using HotelBooking.Application.Interfaces;
+using HotelBooking.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelBooking.Api.Controllers;
@@ -48,5 +50,49 @@ public class HotelsController : ControllerBase
         }).ToList();
 
         return Ok(result);
+    }
+
+    [HttpGet("{id:guid}")]
+    public async Task<ActionResult<HotelDto>> GetById(Guid id, CancellationToken cancellationToken)
+    {
+        var hotel = await _hotelRepository.GetByIdAsync(id, cancellationToken);
+        if (hotel is null) return NotFound();
+
+        var result = new HotelDto
+        {
+            Id = hotel.Id,
+            Name = hotel.Name,
+            Address = hotel.Address,
+            City = hotel.City,
+            Description = hotel.Description
+        };
+
+        return Ok(result);
+    }
+
+    [HttpPost]
+    public async Task<ActionResult<HotelDto>> Create([FromBody] CreateHotelDto request, CancellationToken cancellationToken)
+    {
+        var hotel = new Hotel
+        {
+            Id = Guid.NewGuid(),
+            Name = request.Name,
+            Address = request.Address,
+            City = request.City,
+            Description = request.Description ?? string.Empty
+        };
+
+        var created = await _hotelRepository.AddAsync(hotel, cancellationToken);
+
+        var result = new HotelDto
+        {
+            Id = created.Id,
+            Name = created.Name,
+            Address = created.Address,
+            City = created.City,
+            Description = created.Description
+        };
+
+        return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
 }
