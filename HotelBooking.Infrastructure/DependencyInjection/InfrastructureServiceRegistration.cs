@@ -1,4 +1,6 @@
-﻿using HotelBooking.Infrastructure.Persistence;
+﻿using HotelBooking.Application.Interfaces;
+using HotelBooking.Infrastructure.Persistence;
+using HotelBooking.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -11,6 +13,9 @@ public static class InfrastructureServiceRegistration
     {
         services.AddDbContext<AppDbContext>(options =>
             options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
+        services.AddScoped<IHotelRepository, HotelRepository>();
+
         return services;
     }
 }
