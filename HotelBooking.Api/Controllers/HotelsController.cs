@@ -1,4 +1,5 @@
 ﻿using HotelBooking.Application.DTOs.Hotels;
+using HotelBooking.Application.DTOs.Rooms;
 using HotelBooking.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,6 +28,23 @@ public class HotelsController : ControllerBase
             Address = h.Address,
             City = h.City,
             Description = h.Description
+        }).ToList();
+
+        return Ok(result);
+    }
+
+    [HttpGet("{id:guid}/rooms")]
+    public async Task<ActionResult<List<RoomDto>>> GetRoomsByHotelId(Guid id, CancellationToken cancellationToken)
+    {
+        var rooms = await _hotelRepository.GetRoomsByHotelIdAsync(id, cancellationToken);
+
+        var result = rooms.Select(r => new RoomDto
+        {
+            Id = r.Id,
+            RoomNumber = r.RoomNumber,
+            Capacity = r.Capacity,
+            PricePerNight = r.PricePerNight,
+            Status = r.Status.ToString()
         }).ToList();
 
         return Ok(result);
