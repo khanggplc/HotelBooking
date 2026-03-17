@@ -1,4 +1,5 @@
-﻿using HotelBooking.Application.DTOs.Hotels;
+﻿using HotelBooking.Application.Common;
+using HotelBooking.Application.DTOs.Hotels;
 using HotelBooking.Application.DTOs.Rooms;
 using HotelBooking.Application.Interfaces;
 using HotelBooking.Domain.Entities;
@@ -15,23 +16,6 @@ public class HotelsController : ControllerBase
     public HotelsController(IHotelRepository hotelRepository)
     {
         _hotelRepository = hotelRepository;
-    }
-
-    [HttpGet]
-    public async Task<ActionResult<List<HotelDto>>> GetAll(CancellationToken cancellationToken)
-    {
-        var hotels = await _hotelRepository.GetAllAsync(cancellationToken);
-
-        var result = hotels.Select(h => new HotelDto
-        {
-            Id = h.Id,
-            Name = h.Name,
-            Address = h.Address,
-            City = h.City,
-            Description = h.Description
-        }).ToList();
-
-        return Ok(result);
     }
 
     [HttpGet("{id:guid}/rooms")]
@@ -129,5 +113,34 @@ public class HotelsController : ControllerBase
         if (!deleted) return NotFound();
 
         return NoContent();
+    }
+
+    [HttpGet]
+    public async Task<ActionResult<PagedResult<HotelDto>>> GetAll(
+    [FromQuery] HotelQueryParameters query,
+    CancellationToken cancellationToken)
+    {
+        query.PageNumber = query.PageNumber <= 0 ? 1 : query.PageNumber;
+        query.PageSize = query.PageSize <= 0 ? 10 : query.PageSize;
+        query.PageSize = query.PageSize > 100 ? 100 : query.PageSize;
+
+        var pagedHotels = await _hotelRepository.GetPagedAsync(query, cancellationToken);
+
+        var result = new PagedResult<HotelDto>
+        {
+            PageNumber = pagedHotels.PageNumber,
+            PageSize = pagedHotels.PageSize,
+            TotalCount = pagedHotels.TotalCount,
+            Items = pagedHotels.Items.Select(h => new HotelDto
+            {
+                Id = h.Id,
+                Name = h.Name,
+                Address = h.Address,
+                City = h.City,
+                Description = h.Description
+            }).ToList()
+        };
+
+        return Ok(result);
     }
 }
