@@ -47,12 +47,12 @@ namespace HotelBooking.Api.Controllers
 
             var token = _jwtTokenService.GenerateToken(user.Email, user.Role);
 
-            return Ok(new
+            return Ok(new LoginResponse
             {
-                accessToken = token,
-                role = user.Role,
-                email = user.Email,
-                fullName = user.FullName
+                AccessToken = token,
+                Role = user.Role,
+                Email = user.Email,
+                FullName = user.FullName
             });
         }
     }

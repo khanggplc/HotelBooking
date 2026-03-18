@@ -1,14 +1,21 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace HotelBooking.Api.Controllers;
 
 [ApiController]
-[Route("api/test")]
+[Route("api/[controller]")]
 public class TestController : ControllerBase
 {
-    [HttpGet("error")]
-    public IActionResult ThrowError()
+    [Authorize]
+    [HttpGet("me")]
+    public IActionResult Me()
     {
-        throw new Exception("Test exception");
+        return Ok(new
+        {
+            email = User.Identity?.Name,
+            role = User.FindFirst(ClaimTypes.Role)?.Value
+        });
     }
 }
