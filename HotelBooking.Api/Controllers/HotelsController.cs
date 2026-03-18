@@ -3,6 +3,8 @@ using HotelBooking.Application.DTOs.Hotels;
 using HotelBooking.Application.DTOs.Rooms;
 using HotelBooking.Application.Interfaces;
 using HotelBooking.Domain.Entities;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotelBooking.Api.Controllers;
@@ -53,6 +55,7 @@ public class HotelsController : ControllerBase
         return Ok(result);
     }
 
+    [Authorize(Roles = Roles.Admin)] // chỉ có admin mới được tạo khách sạn
     [HttpPost]
     public async Task<ActionResult<HotelDto>> Create([FromBody] CreateHotelDto request, CancellationToken cancellationToken)
     {
@@ -78,7 +81,7 @@ public class HotelsController : ControllerBase
 
         return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
     }
-
+    [Authorize(Roles = Roles.Admin)] // chỉ có admin mới được cập nhật khách sạn
     [HttpPut("{id:guid}")]
     public async Task<ActionResult<HotelDto>> Update(Guid id, [FromBody] UpdateHotelDto request, CancellationToken cancellationToken)
     {
@@ -105,7 +108,7 @@ public class HotelsController : ControllerBase
 
         return Ok(result);
     }
-
+    [Authorize(Roles = Roles.Admin)]// chỉ có admin mới được xóa khách sạn
     [HttpDelete("{id:guid}")]
     public async Task<IActionResult> Delete(Guid id, CancellationToken cancellationToken)
     {
@@ -143,4 +146,5 @@ public class HotelsController : ControllerBase
 
         return Ok(result);
     }
+   
 }
